@@ -1,0 +1,28 @@
+# Dependencies and generated files
+node_modules/
+dist/
+artifacts/
+*.local
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local planning, handoff notes, and reference material
+docs/
+sources/
+*.md
+*.doc
+*.docx
+*.pdf
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.odt
+*.odp
+*.ods
+
+# Accidental empty npm lockfile at repository root; app lockfile stays tracked
+/package-lock.json
